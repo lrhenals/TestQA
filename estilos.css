@@ -1,0 +1,106 @@
+.header{
+    height: 64px;
+    background-color: black;
+    color: white;
+    text-align: end;
+}
+
+.header p{
+    text-align: end;
+    padding-top: 14px;
+    padding-right: 14px;
+    font-size: 20px;
+}
+
+.container{
+    justify-content: center;
+
+}
+
+.sheet{
+    border-radius: 4px;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h5{
+    text-align: center;
+    margin: 40px;
+}
+
+p.sub{
+    color: rgba(0,0,0,.6);
+    font-size: 18px;
+}
+
+p{
+    color: rgba(0,0,0,.6);
+}
+
+form .grupo{
+    position: relative;
+    padding: 12px;
+}
+
+input,
+textarea{
+    background: none;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: solid 2px rgb(133, 133, 133);
+}
+
+input:focus,
+textarea:focus{
+    outline:none;
+    border: solid 3px #1976d2;
+}
+
+label{
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+    background-color: white;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: rgba(0,0,0,.6);
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top:-2px;
+    font-size: 12px;
+    color: #1976d2;
+}
+
+.form-check{
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* Estilos de error */
+.error-form{
+    border: solid 3px #bb2929 !important;
+}
+
+.error{
+    color: #bb2929 !important;
+}
+
+.good-form{
+    border: solid 3px #1976d2 !important;
+}
+
+.good{
+    color: #1976d2 !important;
+}

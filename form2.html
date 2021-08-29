@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Test QA</title>
+  </head>
+  <body>
+      <div class="header">
+        <p>Test QA</p>
+      </div>  
+      <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-10 col-md-10 col-12">
+
+                <div class="sheet">
+                    <div>
+                        <h5>FORMULARIO DE INSCRIPCION</h5>
+                    </div>
+                    <form action="form2.html" method="POST" class="row g-3 needs-validation" id="formulario" novalidate>
+                        <p class="sub">SOCIOECONOMIC INFORMATION</p>
+                        
+                        <p class="sub">What public services do you have in your home?</p>
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="service1" required>
+                              <p>Internet Service or Connection</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="service2" required>
+                              <p>Closed Television service</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="service3" required>
+                              <p>Water, electricity and gas</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="service4" required>
+                              <p>Landline</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="service5" required>
+                              <p>Cell phone</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="validaS" required>
+                              <p>All</p>
+                            </div>
+                        </div>
+
+
+                        <p class="sub">Which of the following do you have in your home?</p>
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="home1" required>
+                              <p>Computer</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="home2" required>
+                              <p>Washing machine</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="home3" required>
+                              <p>Fridge</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="home4" required>
+                              <p>Microwave</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="home5" required>
+                              <p>DVD player</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="validaH" required>
+                              <p>All</p>
+                            </div>
+                        </div>
+
+                        <p class="sub">How many people do you currently live with?</p>
+                        <div class="col-md-12 col-12 grupo">
+                            <input type="number" min="1" max="50" name="otheri" id="otheri">
+                        </div>
+
+                        <p class="sub">Stratum</p>
+                        <div class="col-md-12 col-12 grupo">
+                            <input type="number" min="1" max="10" name="otheri" id="otheri">
+                        </div>
+    
+                        <div class="col-md-2 col-12">
+                          <button class="btn btn-primary" type="button" id="btn_finish" >FINISH</button>
+                        </div>
+                        <div class="col-md-2 col-12">
+                            <button class="btn btn-primary" type="button" id="btn_Back" >BACK</button>
+                          </div>
+                      </form>
+
+
+                </div>    
+
+                
+            </div>
+        </div>
+        <script src="app2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    
+
+</body>
+</html>
